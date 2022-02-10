@@ -32,8 +32,8 @@
   $tertiary      : map.get($theme-color, warn);
 
   main {
-    background-color: mat.get-color-from-palette($secondary, 500);
-    color: var.$white;
+    // background-color: mat.get-color-from-palette($secondary, 500);
+    // color: var.$white;
     @extend %padding-25;
   }
 }
@@ -44,8 +44,8 @@
   $info          : map.get($theme-color, info);
 
   aside {
-    background-color: mat.get-color-from-palette($info, 500);
-    color: var.$white;
+    // background-color: mat.get-color-from-palette($info, 500);
+    // color: var.$white;
     @extend %padding-25;
   }
 }
@@ -56,8 +56,8 @@
   $success       : map.get($theme-color, success);
 
   footer {
-    background-color: mat.get-color-from-palette($success, 500);
-    color: var.$white;
+    // background-color: mat.get-color-from-palette($success, 500);
+    // color: var.$white;
     @extend %padding-25;
   }
 }
